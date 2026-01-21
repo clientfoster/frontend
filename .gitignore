@@ -11,13 +11,13 @@ pnpm-lock.yaml
 bun.lockb
 
 # Environment Variables
+# Allow .env.production and .env.development (no secrets, just API URLs)
+# Only ignore files with actual secrets
 .env
 .env.local
-.env.development
 .env.development.local
 .env.test
 .env.test.local
-.env.production
 .env.production.local
 .env.*.local
 
